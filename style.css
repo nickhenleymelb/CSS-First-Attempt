@@ -2,6 +2,10 @@ h1{
     color:green;
 }
 
+h2{
+    color: grey;
+}
+
 body{
     background-color:#f4f4f4;
     color: blue;
@@ -14,7 +18,11 @@ body{
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
 
+}
 .container{
     width: 80%;
     margin:auto
@@ -40,3 +48,21 @@ body{
     font font-weight: 800;
 
 }
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10%;
+    border-radius: 15%;
+    color: black;
+
+}
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    border: #ccc solid;
+    color: black;
+    list-style: none;
+}
+
