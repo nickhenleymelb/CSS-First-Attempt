@@ -23,6 +23,16 @@ a{
     color: black;
 
 }
+
+a:hover{
+    color: red;
+
+}
+
+a:active{
+    color: green;
+}
+
 .container{
     width: 80%;
     margin:auto
@@ -66,3 +76,15 @@ a{
     list-style: none;
 }
 
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px green;
+    list-style-image: url('../images/check.png');
+
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.form
