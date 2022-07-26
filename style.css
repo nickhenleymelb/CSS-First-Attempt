@@ -87,4 +87,16 @@ a:active{
     padding: 20px;
 }
 
-.form
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"]{
+padding: 8%;
+width: 100px;
+}
+
+.my-form input[type="submit"]{
+    background-color: black;
+    color: red;
+}
